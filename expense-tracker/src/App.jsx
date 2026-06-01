@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import { Routes,Route} from 'react-router-dom'
+import {Dashboard} from './pages/Dashboard'
 import './App.css'
 
 function App() {
@@ -24,9 +25,9 @@ function App() {
   return (
     <>
       <Routes>
-          <Route path='/' element={<Dashboard transactions={transactions} />} />
-          <Route path='/transactions' element={<TrackEvent transactions={transactions} setTransactions={setTransactions}/>} />
-          <Route path='/reports' element={<Reports transactions={transactions}/>} />
+          <Route path='/' element={<Dashboard transactions={transactions} setTransactions={setTransactions}/>} />
+          {/* <Route path='/transactions' element={<TrackEvent transactions={transactions} setTransactions={setTransactions}/>} />
+          <Route path='/reports' element={<Reports transactions={transactions}/>} /> */}
       </Routes>
     </>
   )
