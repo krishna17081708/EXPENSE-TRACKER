@@ -228,3 +228,23 @@ button:active{
 .modal {
     z-index: 1000; 
 }
+.report-title{
+    font-size: 25px;
+    font-weight: 700;
+    margin-left: 90px;
+    margin-top: 20px;
+    
+
+}
+.report-1{
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: inline-block;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+.report-2{
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: inline-block;
+    margin-top: 15px;
+    margin-left: 100px;
+}
